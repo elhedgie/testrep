@@ -1,0 +1,53 @@
+.wrap {
+  display: flex;
+}
+.tableWrap {
+  display: flex;
+  flex-flow: column;
+  width: auto;
+  height: 100%;
+}
+
+.columnWrap {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  flex: 0 0 149px;
+  background-color: #f7f8fc;
+  height: 48px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  border-right: 1px solid rgba(38, 40, 66, 0.12);
+  font-size: 12px;
+}
+
+.topTitle {
+  display: flex;
+}
+
+.bottom {
+  display: flex;
+  flex-grow: 1;
+  border-top: 1px solid rgba(38, 40, 66, 0.12);
+  border-bottom: 1px solid rgba(38, 40, 66, 0.12);
+}
+
+.dayBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  border-right: 1px solid rgba(38, 40, 66, 0.12);
+}
+
+.dayBlockWeekend {
+  color: #a9a9b8;
+}
+.daysWrap {
+  display: flex;
+}

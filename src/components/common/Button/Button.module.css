@@ -1,0 +1,28 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.iconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.iconDown {
+  transform: rotate(-180deg);
+}
+
+.iconUp {
+  transform: rotate(0);
+}

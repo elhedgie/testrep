@@ -1,0 +1,47 @@
+.wrap {
+  background-color: white;
+}
+
+.workItem {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: white;
+  border-bottom: 1px solid rgba(38, 40, 66, 0.12);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.workItem:hover {
+  background-color: rgba(38, 40, 66, 0.12);
+}
+
+.leftWrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 8px;
+}
+
+.childrenNumber {
+  font-weight: 100;
+  font-style: italic;
+  color: #8b8c9e;
+}
+
+.subWrap {
+  max-height: max-content;
+}
+
+.closed {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.iconDown {
+  transform: rotate(-180deg);
+}
+
+.iconUp {
+  transform: rotate(0);
+}

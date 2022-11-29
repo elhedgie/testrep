@@ -1,0 +1,59 @@
+.wrap {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 22px);
+  grid-auto-flow: column;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.line {
+  width: 21px;
+  border-right: 1px solid rgba(38, 40, 66, 0.12);
+}
+
+.periodsWrap {
+  position: absolute;
+  top: 39px;
+  width: 100%;
+}
+
+.task {
+  position: relative;
+  height: 41px;
+}
+
+.durationWrap {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 100%;
+  grid-template-columns: repeat(auto-fill, 22px);
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.durationCell {
+  display: flex;
+  width: 22px;
+  height: 24px;
+}
+
+.durationActiveCell {
+  display: flex;
+  position: relative;
+  width: 22px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+.durationTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: calc(100% + 10px);
+  white-space: nowrap;
+}
