@@ -1,4 +1,4 @@
 # stack
-react + redux/saga + typescript
-eslint + prettier
+react + redux/saga + typescript <br />
+eslint + prettier <br />
 css-modules
